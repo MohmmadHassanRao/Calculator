@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "MuseoModerno";
+  font-size: 1.2em;
+}
+body {
+  background: linear-gradient(to right, rgb(84, 74, 125), rgb(255, 212, 82));
+}
+
+.container {
+  margin: 0 auto;
+  border: 2px solid #a56cc1;
+  border-radius: 10px;
+  text-align: center;
+  width: 50%;
+  margin-top: 100px;
+}
+h2 {
+  text-align: center;
+  color: white;
+  position: relative;
+  top: 60px;
+  border-bottom: 2px solid white;
+}
+.main {
+  width: 90%;
+  padding: 10px;
+  position: relative;
+  top: 20px;
+  border-radius: 10px;
+  border-color: #a56cc1;
+  opacity: 0.9;
+}
+.clear {
+  width: 90%;
+  margin: 25px 0;
+  border: none;
+  padding: 10px;
+}
+
+.btn {
+  width: 20%;
+  height: 100px;
+  margin: 11px;
+  border: none;
+  height: 12vh;
+}
+.btn,
+.main,
+.clear,
+.btn-end {
+  background: none;
+  color: #ffffff;
+}
+.btn:hover,
+.btn-end:hover,
+.clear:hover {
+  background-color: #7d6aa1;
+  border: none;
+}
+.clear:hover {
+  border-radius: 10px;
+}
+
+.btn-end {
+  width: 32%;
+  border: none;
+  height: 14vh;
+}
